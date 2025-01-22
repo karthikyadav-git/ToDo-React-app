@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Note.css";
 
-const Note = ({title = "Your Title...", content = "Your content goes here..."}) => {
+const NoteCard = ({title = "Your Title...", content = "Your content goes here..."}) => {
     const [done, setDone] = useState(false);
 
     const toogleDone = () => {
@@ -21,4 +21,4 @@ const Note = ({title = "Your Title...", content = "Your content goes here..."}) 
 // * Title and Content
 // ? Toogle checkbox
 
-export default Note;
+export default NoteCard;

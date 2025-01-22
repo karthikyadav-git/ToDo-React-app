@@ -1,11 +1,11 @@
 import './App.css'
-import Note from './components/Note'
+import NoteCard from './components/NoteCard'
 
 function App() {
   return (
     <>
-    <Note />
-    <Note title='ToDo App' content='Build a todo app in React' />
+    <NoteCard />
+    <NoteCard title='ToDo App' content='Build a todo app in React' />
     </>
   )
 }
