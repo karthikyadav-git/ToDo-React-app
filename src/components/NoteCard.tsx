@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Note.css";
+import "./NoteCard.css";
 
 const NoteCard = ({title = "Your Title...", content = "Your content goes here..."}) => {
     const [done, setDone] = useState(false);
